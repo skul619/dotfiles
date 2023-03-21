@@ -29,9 +29,9 @@ set encoding=UTF-8
 
 call plug#end()
 
-"colorscheme tokyonight-night
-colorscheme gruvbox
-set background=dark
+colorscheme tokyonight-night
+"colorscheme gruvbox
+"set background=dark
 
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
