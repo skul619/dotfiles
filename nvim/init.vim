@@ -24,7 +24,7 @@ Plug 'https://github.com/tc50cal/vim-terminal' " vim terminal
 Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
 Plug 'https://github.com/42Paris/42header' " Header42
 Plug 'https://github.com/akinsho/toggleterm.nvim' " Toggleterm
-
+Plug 'https://github.com/tribela/vim-transparent' " trans
 set encoding=UTF-8
 
 call plug#end()
@@ -44,7 +44,6 @@ nmap <F8> :TagbarToggle<CR>
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
-
 " --- Just Some Notes ---
 " :PlugClean :PlugInstall :UpdateRemotePlugins
 "

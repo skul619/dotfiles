@@ -107,6 +107,7 @@ alias cc='gcc -Wall -Wextra -Werror'
 alias tempo='curl wttr.in Porto'
 alias sp='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
 alias nv='nvim'
+alias examshell='bash -c "$(curl https://grademe.fr)"'
 
 # navigation
 alias ..="cd .."
@@ -114,10 +115,3 @@ alias ...="cd ../.."
 alias .3="cd ../../.."
 alias .4="cd ../../../.."
 alias .5='cd ../../../../..'
-
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(
-	git
-	zsh-autosuggestions
-	zsh-syntax-highlighting
-)

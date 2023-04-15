@@ -179,4 +179,5 @@ configuration {
 	me-accept-custom: "Control+MouseDPrimary";
 */
 }
-@theme "/home/jpark/.local/share/rofi/themes/rounded-orange-dark.rasi"
+//@theme "/home/jpark/.local/share/rofi/themes/rounded-orange-dark.rasi"
+@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
